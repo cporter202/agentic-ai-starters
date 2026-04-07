@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [LinkedIn Jobs Scraper](https://apify.com/valig/linkedin-jobs-scraper?fpr=p2hrc6) | LinkedIn job discovery | Strong fit for high-signal white-collar searches |
 | [Indeed Jobs Scraper](https://apify.com/valig/indeed-jobs-scraper?fpr=p2hrc6) | broad job-market collection | Useful for wider role coverage and geographic depth |

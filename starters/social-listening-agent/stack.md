@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6) | public post and profile monitoring | Strong fit for real-time brand and competitor chatter |
 | [X Post Replies Scraper](https://apify.com/scraper_one/x-post-replies-scraper?fpr=p2hrc6) | reply-thread analysis | Useful when the real signal lives in the comments, not the original post |

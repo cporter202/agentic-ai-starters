@@ -30,7 +30,12 @@ Outputs: mention feed, theme clusters, sentiment summaries, crisis alerts, weekl
 
 ## Recommended API stack
 
-Use the X API and YouTube Data API for channel coverage, add Google-based news or search collection for broader context, and use OpenAI for classification, summarization, and escalation logic. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6) for public post monitoring
+- [YouTube Comments Scraper](https://apify.com/apidojo/youtube-comments-scraper?fpr=p2hrc6) for comment and audience sentiment
+- [Reddit Posts & Comments Scraper](https://apify.com/parseforge/reddit-posts-comments-scraper?fpr=p2hrc6) for community signal capture
+- OpenAI and Slack for classification, summarization, and alert routing
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

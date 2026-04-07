@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Find B2B Emails for Outreach](https://apify.com/purple_beep_boop/find-b2b-emails-for-outreach?fpr=p2hrc6) | outreach-ready email discovery | Directly aligned with cold email and outbound use cases |
 | [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) | lead sourcing | Useful for building personalized outbound lists from the start |

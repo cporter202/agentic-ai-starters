@@ -30,7 +30,12 @@ Outputs: triage labels, draft replies, escalation queue, support summaries, reso
 
 ## Recommended API stack
 
-Use Zendesk for ticket workflows, Notion for internal knowledge, Slack for internal escalation, and OpenAI for retrieval-aware drafting and classification. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for help-center and docs ingestion
+- [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) for extracting structured support content
+- [Trustpilot Scraper](https://apify.com/happitap/trustpilot-scraper?fpr=p2hrc6) for external customer feedback
+- Zendesk, Slack, and OpenAI for ticket workflows, escalations, and retrieval-aware drafting
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

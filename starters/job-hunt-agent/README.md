@@ -30,7 +30,12 @@ Outputs: ranked job feed, tailored application assets, follow-up reminders, sear
 
 ## Recommended API stack
 
-Use Adzuna for job data, Firecrawl for employer or listing-page extraction, OpenAI for matching and application materials, and Notion or a tracker database for pipeline management. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [LinkedIn Jobs Scraper](https://apify.com/valig/linkedin-jobs-scraper?fpr=p2hrc6) for high-signal job discovery
+- [Indeed Jobs Scraper](https://apify.com/valig/indeed-jobs-scraper?fpr=p2hrc6) for broader market coverage
+- [LinkedIn Company Data Extractor](https://apify.com/data-slayer/linkedin-company-scraper?fpr=p2hrc6) for employer context
+- OpenAI and Notion or a tracker database for fit scoring, application assets, and search management
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

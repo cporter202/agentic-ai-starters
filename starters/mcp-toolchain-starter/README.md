@@ -30,7 +30,12 @@ Outputs: completed actions, notes, tickets, code suggestions, docs updates, trac
 
 ## Recommended API stack
 
-Use OpenAI for tool-aware reasoning, GitHub for repo actions, Notion for docs, Slack for approvals or notifications, and optionally Tavily for live web retrieval. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) for structured web actions
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for docs and knowledge ingestion
+- [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) for live web retrieval
+- OpenAI, GitHub, Notion, and Slack for tool-aware reasoning, repo actions, docs, and approvals
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

@@ -30,7 +30,12 @@ Outputs: message variants, sequence steps, personalization notes, handoff queue,
 
 ## Recommended API stack
 
-Use People Data Labs or your lead source for enrichment, Hunter for deliverability-aware contact work, Resend for delivery, and OpenAI for personalization and objection handling. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Find B2B Emails for Outreach](https://apify.com/purple_beep_boop/find-b2b-emails-for-outreach?fpr=p2hrc6) for outreach-ready contact discovery
+- [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) for prospect sourcing
+- [LinkedIn Profile Scraper](https://apify.com/automation-lab/linkedin-profile-scraper?fpr=p2hrc6) for personalization context
+- OpenAI, Hunter, and Resend for sequence writing, verification, and delivery
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

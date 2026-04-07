@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) | SERP collection and intent research | Gives the agent current search-result context without building the fetch layer yourself |
 | [Google Search Scraper](https://apify.com/apidojo/google-search-scraper?fpr=p2hrc6) | deeper SERP extraction | Useful when you want page-level search data for briefs and content gaps |

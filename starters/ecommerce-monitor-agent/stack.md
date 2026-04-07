@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Amazon Product Scraper](https://apify.com/get-leads/amazon-product-scraper?fpr=p2hrc6) | marketplace catalog, price, and review monitoring | Strong fit for Amazon-focused operators and comparison tracking |
 | [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) | shopping and brand SERP checks | Useful for watching visibility and competitor movement outside owned channels |

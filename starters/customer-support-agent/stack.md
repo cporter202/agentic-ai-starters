@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | help-center and docs ingestion | Great for building retrieval-ready support knowledge from public docs |
 | [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | structured extraction from support sites | Useful when docs are inconsistent and need prompt-based extraction |

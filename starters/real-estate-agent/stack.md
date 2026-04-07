@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Zillow Scraper](https://apify.com/mido_99/zillow-scraper?fpr=p2hrc6) | property listing collection | Gives the starter a direct path to listing intelligence |
 | [Google Maps B2B Leads Scraper](https://apify.com/primeparse/google-maps-scraper?fpr=p2hrc6) | nearby-business and amenity context | Useful for neighborhood enrichment and local operator research |

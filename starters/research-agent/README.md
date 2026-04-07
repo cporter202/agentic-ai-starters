@@ -31,7 +31,12 @@ Outputs: research memo, source table, key claims, open questions, next-step reco
 
 ## Recommended API stack
 
-Use OpenAI for synthesis, Tavily or Exa for discovery, Firecrawl for page extraction, and Langfuse for tracing and prompt iteration. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) for end-to-end research runs
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for crawling and extracting source material
+- [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) for discovery and search expansion
+- OpenAI for synthesis, extraction, and final report generation
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

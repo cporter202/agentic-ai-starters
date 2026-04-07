@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) | end-to-end research runs | Fastest way to demonstrate a research blueprint with a visible AI workflow |
 | [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | prompt-based structured extraction | Strong fit when the agent needs flexible extraction across mixed sites |

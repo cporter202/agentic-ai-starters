@@ -30,7 +30,12 @@ Outputs: ranked properties, comp notes, market snapshots, underwriting summaries
 
 ## Recommended API stack
 
-Use RentCast for listing and rent data, Google Places for amenity and neighborhood signals, OpenAI for underwriting notes and summaries, and Resend or Slack for alert delivery. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Zillow Scraper](https://apify.com/mido_99/zillow-scraper?fpr=p2hrc6) for listing intelligence
+- [Google Maps B2B Leads Scraper](https://apify.com/primeparse/google-maps-scraper?fpr=p2hrc6) for location and nearby-business context
+- [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) for market and locality discovery
+- RentCast, OpenAI, and Resend or Slack for underwriting notes, structured property data, and alerts
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

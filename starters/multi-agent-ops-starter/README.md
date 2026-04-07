@@ -30,7 +30,12 @@ Outputs: completed task bundle, trace data, reviewer notes, retry queue, operato
 
 ## Recommended API stack
 
-Use OpenAI for the planner or executor roles, Anthropic for review or long-context specialists, Trigger.dev for reliable orchestration, Langfuse for traces, and Slack for human checkpoints. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) for dedicated research-worker tasks
+- [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) for flexible extraction-worker tasks
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for knowledge ingestion across agents
+- OpenAI, Anthropic, Trigger.dev, and Langfuse for planning, review, orchestration, and observability
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

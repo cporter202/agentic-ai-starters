@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | structured web actions inside toolchains | Good fit for agents that need prompt-based extraction as a callable tool |
 | [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | docs and knowledge ingestion | Strong MCP companion when the agent needs clean site data |

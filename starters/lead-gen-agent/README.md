@@ -30,7 +30,12 @@ Outputs: ranked lead list, contact profiles, enrichment fields, qualification no
 
 ## Recommended API stack
 
-Use People Data Labs for enrichment, Hunter for email discovery and verification, Google Places or Apify for discovery, and OpenAI for lead scoring and routing logic. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) for sourcing prospects
+- [Google Maps B2B Leads Scraper](https://apify.com/primeparse/google-maps-scraper?fpr=p2hrc6) for local business discovery
+- [LinkedIn Company Data Extractor](https://apify.com/data-slayer/linkedin-company-scraper?fpr=p2hrc6) for company enrichment
+- OpenAI, Hunter, and People Data Labs for scoring, verification, and enrichment logic
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

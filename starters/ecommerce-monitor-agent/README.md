@@ -30,7 +30,12 @@ Outputs: change feed, price alerts, stock alerts, review summaries, operator rec
 
 ## Recommended API stack
 
-Use Shopify for owned-store data, Amazon Selling Partner API for marketplace-aware workflows, Firecrawl or Apify for competitor site monitoring, and OpenAI for summarization and triage. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Amazon Product Scraper](https://apify.com/get-leads/amazon-product-scraper?fpr=p2hrc6) for marketplace product, price, and review monitoring
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for competitor store crawling
+- [Trustpilot Scraper](https://apify.com/happitap/trustpilot-scraper?fpr=p2hrc6) for review and reputation monitoring
+- Shopify Admin API and OpenAI for owned-store sync, summarization, and operator alerts
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

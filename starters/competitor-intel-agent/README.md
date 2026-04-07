@@ -30,7 +30,12 @@ Outputs: change log, positioning summary, pricing deltas, hiring signals, strate
 
 ## Recommended API stack
 
-Use Firecrawl for page snapshots, Similarweb for traffic context, BuiltWith for technology shifts, and OpenAI for interpretation and brief generation. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
+- [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) for monitoring pricing pages, product pages, and changelogs
+- [Product Hunt Scraper](https://apify.com/vulnv/producthunt-scraper?fpr=p2hrc6) for launch tracking
+- [LinkedIn Company Posts Scraper](https://apify.com/data-slayer/linkedin-company-posts-scraper?fpr=p2hrc6) for messaging and campaign monitoring
+- OpenAI, Similarweb, and BuiltWith for interpretation, traffic context, and technology shifts
+
+See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
 ## Why build it
 

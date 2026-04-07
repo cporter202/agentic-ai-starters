@@ -1,8 +1,8 @@
 # Curated API Stack
 
-## Featured Apify APIs
+## Featured APIs
 
-| Apify API | Used for | Why it belongs |
+| API | Used for | Why it belongs |
 | --- | --- | --- |
 | [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | pricing-page, product-page, and docs snapshots | Reliable core layer for change detection |
 | [Product Hunt Scraper](https://apify.com/vulnv/producthunt-scraper?fpr=p2hrc6) | launch monitoring | Useful for catching launches, comments, and maker activity |
