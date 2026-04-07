@@ -1,0 +1,109 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="86" y1="44" x2="1302" y2="721" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1E35"/>
+      <stop offset="1" stop-color="#122F42"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="270" y1="108" x2="1174" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="201" y1="151" x2="681" y2="453" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CF2C2"/>
+      <stop offset="1" stop-color="#3AA3FF"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="895" y1="185" x2="1248" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD66B"/>
+      <stop offset="1" stop-color="#FF8F5A"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F4F8FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F4F8FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="blurA" x="-77" y="-122" width="742" height="742" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="80" result="effect1_foregroundBlur_1_1"/>
+    </filter>
+    <filter id="blurB" x="814" y="-18" width="538" height="538" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="70" result="effect1_foregroundBlur_1_1"/>
+    </filter>
+    <filter id="shadow" x="164" y="69" width="1072" height="612" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.008 0 0 0 0 0.043 0 0 0 0 0.106 0 0 0 0.4 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#D8F3FF" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <rect width="1400" height="760" rx="36" fill="url(#grid)"/>
+
+  <g filter="url(#blurA)">
+    <circle cx="294" cy="249" r="211" fill="#4CF2C2" fill-opacity="0.28"/>
+  </g>
+  <g filter="url(#blurB)">
+    <circle cx="1083" cy="251" r="134" fill="#6E8CFF" fill-opacity="0.25"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="220" y="107" width="960" height="500" rx="30" fill="url(#panel)" stroke="rgba(255,255,255,0.14)"/>
+  </g>
+
+  <rect x="270" y="157" width="180" height="34" rx="17" fill="url(#chip)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="292" y="180" fill="#DDF8FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">PREMIUM BLUEPRINT LIBRARY</text>
+
+  <text x="270" y="255" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Agentic AI</text>
+  <text x="270" y="325" fill="url(#accentA)" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Starters</text>
+  <text x="270" y="380" fill="#B6C9DB" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">Curated starter blueprints for building autonomous AI apps</text>
+  <text x="270" y="416" fill="#B6C9DB" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">with real APIs, production-minded workflows, prompts, and monetization paths.</text>
+
+  <rect x="270" y="467" width="206" height="54" rx="27" fill="url(#accentA)"/>
+  <text x="311" y="501" fill="#041321" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">APIFY-FIRST STACKS</text>
+
+  <rect x="490" y="467" width="214" height="54" rx="27" fill="url(#chip)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="530" y="501" fill="#E7F2FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">12 ACTIONABLE STARTERS</text>
+
+  <rect x="718" y="467" width="182" height="54" rx="27" fill="url(#chip)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="760" y="501" fill="#E7F2FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">MVP TO V1 PATHS</text>
+
+  <rect x="920" y="150" width="198" height="122" rx="24" fill="rgba(6,14,25,0.58)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="948" y="188" fill="#FFF1CC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">FEATURED STACK</text>
+  <text x="948" y="226" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Research Agent</text>
+  <text x="948" y="255" fill="#C5D5E4" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">OpenAI + Apify Search +</text>
+  <text x="948" y="278" fill="#C5D5E4" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Website Content Crawler</text>
+
+  <rect x="948" y="300" width="141" height="28" rx="14" fill="rgba(255,255,255,0.08)"/>
+  <text x="973" y="319" fill="#DDF8FF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CITATION-FIRST WORKFLOW</text>
+
+  <rect x="860" y="310" width="258" height="146" rx="24" fill="rgba(6,14,25,0.58)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="887" y="346" fill="#BFF4E2" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">STARTER CATEGORIES</text>
+  <rect x="887" y="368" width="93" height="31" rx="15.5" fill="rgba(76,242,194,0.12)" stroke="rgba(76,242,194,0.28)"/>
+  <text x="908" y="389" fill="#DDFDF4" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">RESEARCH</text>
+  <rect x="994" y="368" width="89" height="31" rx="15.5" fill="rgba(58,163,255,0.12)" stroke="rgba(58,163,255,0.28)"/>
+  <text x="1018" y="389" fill="#E3F2FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">REVENUE</text>
+  <rect x="887" y="411" width="108" height="31" rx="15.5" fill="rgba(255,214,107,0.12)" stroke="rgba(255,214,107,0.28)"/>
+  <text x="914" y="432" fill="#FFF5D8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">CONTENT OPS</text>
+  <rect x="1008" y="411" width="86" height="31" rx="15.5" fill="rgba(255,143,90,0.12)" stroke="rgba(255,143,90,0.28)"/>
+  <text x="1031" y="432" fill="#FFF0E7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">SYSTEMS</text>
+
+  <rect x="905" y="492" width="213" height="78" rx="22" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="932" y="525" fill="url(#accentB)" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Monetization Ready</text>
+  <text x="932" y="551" fill="#C9D6E4" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Agencies, SaaS, internal ops, info products, and client services.</text>
+
+  <circle cx="1173" cy="588" r="66" fill="rgba(255,255,255,0.07)"/>
+  <circle cx="1173" cy="588" r="54" stroke="rgba(255,255,255,0.16)"/>
+  <path d="M1173 547L1183 573L1212 575L1189 592L1197 620L1173 604L1149 620L1157 592L1134 575L1163 573L1173 547Z" fill="url(#accentB)"/>
+
+  <text x="270" y="583" fill="#D6E4F1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Blueprints for research agents, lead gen systems, SEO automations, social listening,</text>
+  <text x="270" y="607" fill="#D6E4F1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">ecommerce monitoring, MCP toolchains, multi-agent operations, and more.</text>
+</svg>
