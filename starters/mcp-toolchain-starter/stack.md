@@ -1,22 +1,22 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| OpenAI | tool-aware reasoning and orchestration | Strong fit for structured tool calling and agent loops |
-| GitHub API | repo reads, issues, PRs, and code workflow actions | One of the most common high-value tool surfaces for autonomous agents |
-| Notion API | documentation reads and updates | Useful for operational memory and human-facing outputs |
-| Slack API | approval routing and notifications | Helpful for keeping humans in the loop during tool use |
+| [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | structured web actions inside toolchains | Good fit for agents that need prompt-based extraction as a callable tool |
+| [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | docs and knowledge ingestion | Strong MCP companion when the agent needs clean site data |
+| [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) | live web retrieval | Gives the toolchain a practical search primitive without building one |
 
-## Optional alternatives
+## Companion APIs
 
-- Tavily: useful for live web retrieval inside the same agent loop.
-- Anthropic: useful for review-mode agents or second-pass checks.
-- Resend: useful when the toolchain needs email-based reports or alerts.
+- OpenAI: tool-aware reasoning and orchestration.
+- GitHub API: repo actions, issues, and PR workflows.
+- Notion API: documentation memory and outputs.
+- Slack API: approvals and notifications.
 
 ## Suggested stack tiers
 
-- Lean stack: OpenAI + GitHub API.
-- Best-value stack: OpenAI + GitHub API + Notion API.
-- Premium stack: OpenAI + Anthropic + GitHub API + Notion API + Slack API.
+- Lean stack: OpenAI + [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6).
+- Best-value stack: OpenAI + GitHub API + [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6).
+- Premium stack: OpenAI + GitHub API + [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) + Notion API + Slack API.

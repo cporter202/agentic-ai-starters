@@ -30,7 +30,7 @@ Outputs: change log, positioning summary, pricing deltas, hiring signals, strate
 
 ## Recommended API stack
 
-Use Firecrawl for page snapshots, Similarweb for traffic context, BuiltWith for technology shifts, and OpenAI for interpretation and brief generation.
+Use Firecrawl for page snapshots, Similarweb for traffic context, BuiltWith for technology shifts, and OpenAI for interpretation and brief generation. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

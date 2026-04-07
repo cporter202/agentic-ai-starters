@@ -1,22 +1,22 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| Zendesk API | ticket ingestion and workflow state | Strong fit for support-first automation |
-| Notion API | internal knowledge and SOP retrieval | Useful when teams store live operating guidance in docs |
-| Slack API | escalation and internal alerts | Keeps humans in the loop for sensitive cases |
-| OpenAI | classification, retrieval-aware drafting, summaries | Turns support data into faster and more consistent actions |
+| [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | help-center and docs ingestion | Great for building retrieval-ready support knowledge from public docs |
+| [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | structured extraction from support sites | Useful when docs are inconsistent and need prompt-based extraction |
+| [Trustpilot Scraper](https://apify.com/happitap/trustpilot-scraper?fpr=p2hrc6) | customer-feedback ingestion | Adds external customer sentiment and complaint themes |
+| [Reddit Posts & Comments Scraper](https://apify.com/parseforge/reddit-posts-comments-scraper?fpr=p2hrc6) | community support signals | Useful for support teams that monitor user frustration outside the ticket queue |
 
-## Optional alternatives
+## Companion APIs
 
-- Anthropic: useful for second-pass response review or long-case synthesis.
-- Resend: useful when support actions flow through email digests and summaries.
-- GitHub API: useful when the support loop needs to create bug reports for product teams.
+- OpenAI: classification, retrieval-aware drafting, and summaries.
+- Zendesk API: ticket workflows.
+- Slack API: internal escalation.
 
 ## Suggested stack tiers
 
-- Lean stack: Zendesk API + OpenAI.
-- Best-value stack: Zendesk API + Notion API + OpenAI + Slack API.
-- Premium stack: Zendesk API + Notion API + Slack API + OpenAI + Langfuse.
+- Lean stack: OpenAI + [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6).
+- Best-value stack: OpenAI + Zendesk API + [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6).
+- Premium stack: OpenAI + Zendesk API + [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) + [Trustpilot Scraper](https://apify.com/happitap/trustpilot-scraper?fpr=p2hrc6) + Langfuse.

@@ -1,22 +1,22 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| OpenAI | planning, extraction, synthesis, report generation | Strong fit for multi-step research loops and structured outputs |
-| Tavily | live search and result retrieval | Fast way to turn research plans into web discovery runs |
-| Firecrawl | clean page extraction and markdown output | Makes downstream evidence extraction more reliable |
-| Langfuse | tracing, evaluation, prompt versioning | Helpful once research workflows become multi-step and client-facing |
+| [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) | end-to-end research runs | Fastest way to demonstrate a research blueprint with a visible AI workflow |
+| [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | prompt-based structured extraction | Strong fit when the agent needs flexible extraction across mixed sites |
+| [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | deep crawling and markdown extraction | Useful for long-form source capture, docs, and knowledge-base ingestion |
+| [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) | search discovery | Gives the research agent a broad discovery layer before synthesis |
 
-## Optional alternatives
+## Companion APIs
 
-- Exa: good when semantic web search quality matters more than general breadth.
-- Anthropic: useful when you want a second-model reviewer for higher-stakes briefs.
-- Apify: useful when the workflow depends on niche web sources or repeated scraping jobs.
+- OpenAI: planning, extraction, synthesis, and report generation.
+- Langfuse: tracing, evaluations, and prompt iteration.
+- Postgres: evidence storage and citation indexing.
 
 ## Suggested stack tiers
 
-- Lean stack: OpenAI + Tavily + SQLite or Postgres.
-- Best-value stack: OpenAI + Tavily + Firecrawl + Postgres.
-- Premium stack: OpenAI + Anthropic + Exa + Firecrawl + Langfuse.
+- Lean stack: OpenAI + [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6).
+- Best-value stack: OpenAI + [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) + [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6).
+- Premium stack: OpenAI + [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) + [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) + Langfuse.

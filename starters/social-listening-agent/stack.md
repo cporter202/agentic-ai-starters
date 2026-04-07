@@ -1,22 +1,23 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| X API | post, mention, and account monitoring | Useful for real-time public conversation tracking |
-| YouTube Data API | video and comment monitoring | Strong fit for creator, product, and review ecosystems |
-| SerpApi | news and search collection | Adds wider web context around spikes or brand events |
-| OpenAI | classification, clustering, summarization, alert drafting | Turns noisy streams into operator-ready insight |
+| [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6) | public post and profile monitoring | Strong fit for real-time brand and competitor chatter |
+| [X Post Replies Scraper](https://apify.com/scraper_one/x-post-replies-scraper?fpr=p2hrc6) | reply-thread analysis | Useful when the real signal lives in the comments, not the original post |
+| [YouTube Comments Scraper](https://apify.com/apidojo/youtube-comments-scraper?fpr=p2hrc6) | audience sentiment and creator feedback | Great for review ecosystems, launches, and influencer monitoring |
+| [Reddit Posts & Comments Scraper](https://apify.com/parseforge/reddit-posts-comments-scraper?fpr=p2hrc6) | community conversation capture | Useful for product pain points, feature requests, and grassroots sentiment |
+| [Google News Scraper](https://apify.com/datapilot/google-news-scraper?fpr=p2hrc6) | press and media monitoring | Adds broader narrative context when a topic spikes |
 
-## Optional alternatives
+## Companion APIs
 
-- Reddit API: useful when community discussions are a major source of signal.
-- Apify: useful for broader coverage of channels or directories without strong native APIs.
-- Anthropic: useful for a second-pass reviewer on sensitive escalations.
+- OpenAI: classification, clustering, summarization, and alert drafting.
+- Slack API: team alerts and escalations.
+- Langfuse: monitoring prompt drift and workflow quality.
 
 ## Suggested stack tiers
 
-- Lean stack: X API + OpenAI.
-- Best-value stack: X API + YouTube Data API + OpenAI.
-- Premium stack: X API + YouTube Data API + SerpApi + OpenAI + Langfuse.
+- Lean stack: OpenAI + [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6).
+- Best-value stack: OpenAI + [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6) + [YouTube Comments Scraper](https://apify.com/apidojo/youtube-comments-scraper?fpr=p2hrc6).
+- Premium stack: OpenAI + [Twitter/X Scraper](https://apify.com/automation-lab/twitter-scraper?fpr=p2hrc6) + [Reddit Posts & Comments Scraper](https://apify.com/parseforge/reddit-posts-comments-scraper?fpr=p2hrc6) + [Google News Scraper](https://apify.com/datapilot/google-news-scraper?fpr=p2hrc6) + Langfuse.

@@ -1,22 +1,23 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| OpenAI | planner, worker, and tool-using agent roles | Flexible core model layer for structured multi-step work |
-| Anthropic | reviewer or long-context specialist roles | Useful for cross-checking and second-pass reasoning |
-| Trigger.dev | orchestration, retries, schedules, background runs | Strong fit for durable multi-step agent workflows |
-| Langfuse | traces, evaluations, and debugging | Helps teams understand where multi-agent systems fail or drift |
+| [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) | specialist research worker | Useful as a dedicated worker inside a larger multi-agent flow |
+| [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) | flexible extraction worker | Good fit for agents that need structured outputs from arbitrary sites |
+| [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) | knowledge and docs worker | Strong input layer for retrieval-heavy agent teams |
+| [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) | live-search worker | Helps planner agents assign discovery tasks quickly |
 
-## Optional alternatives
+## Companion APIs
 
-- Slack API: useful for approvals, escalation, and operator notifications.
-- GitHub API: useful when the workflow executes code or issue-management tasks.
-- Notion API: useful for shared memory, SOP storage, and human-facing reports.
+- OpenAI: planner, worker, and tool-using roles.
+- Anthropic: reviewer roles and long-context checks.
+- Trigger.dev: orchestration, retries, and schedules.
+- Langfuse: traces, evaluations, and debugging.
 
 ## Suggested stack tiers
 
-- Lean stack: OpenAI + Trigger.dev.
-- Best-value stack: OpenAI + Trigger.dev + Langfuse.
-- Premium stack: OpenAI + Anthropic + Trigger.dev + Langfuse + Slack API.
+- Lean stack: OpenAI + [Google Search API](https://apify.com/api/google-search-api?fpr=p2hrc6) + Trigger.dev.
+- Best-value stack: OpenAI + [Website Content Crawler](https://apify.com/apify/website-content-crawler?fpr=p2hrc6) + Trigger.dev + Langfuse.
+- Premium stack: OpenAI + Anthropic + [AI Web Scraper](https://apify.com/apify/ai-web-scraper?fpr=p2hrc6) + [AI Web Research Agent](https://apify.com/devwithbobby/ai-web-research-agent?fpr=p2hrc6) + Langfuse.

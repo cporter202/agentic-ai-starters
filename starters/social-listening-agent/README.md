@@ -30,7 +30,7 @@ Outputs: mention feed, theme clusters, sentiment summaries, crisis alerts, weekl
 
 ## Recommended API stack
 
-Use the X API and YouTube Data API for channel coverage, add Google-based news or search collection for broader context, and use OpenAI for classification, summarization, and escalation logic.
+Use the X API and YouTube Data API for channel coverage, add Google-based news or search collection for broader context, and use OpenAI for classification, summarization, and escalation logic. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

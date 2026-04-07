@@ -30,7 +30,7 @@ Outputs: triage labels, draft replies, escalation queue, support summaries, reso
 
 ## Recommended API stack
 
-Use Zendesk for ticket workflows, Notion for internal knowledge, Slack for internal escalation, and OpenAI for retrieval-aware drafting and classification.
+Use Zendesk for ticket workflows, Notion for internal knowledge, Slack for internal escalation, and OpenAI for retrieval-aware drafting and classification. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

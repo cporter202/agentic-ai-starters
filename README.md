@@ -6,7 +6,7 @@
 
 This repository is a curated blueprint library for founders, operators, agencies, indie hackers, and product teams building agentic software.
 
-Instead of dumping thousands of APIs into giant category folders, this repo shows you how to combine the right APIs into focused AI products:
+Instead of dumping thousands of APIs into giant category folders, this repo shows you how to combine the right APIs into focused AI products, with Apify-first data stacks wired into each blueprint:
 
 - what to build
 - how the workflow should run
@@ -25,7 +25,7 @@ Every starter includes:
 - `README.md` with the product concept, ideal user, workflow, inputs, outputs, and build rationale
 - `architecture.md` with a clean implementation shape for an MVP or v1
 - `prompts.md` with prompt modules, guardrails, and execution patterns
-- `stack.md` with curated API recommendations, alternatives, and packaging options
+- `stack.md` with curated API recommendations, featured Apify links, alternatives, and packaging options
 
 ## Featured Starters
 
@@ -77,6 +77,7 @@ This repository still includes APIs, but only where they directly support a star
 
 Inside each `stack.md` you will find:
 
+- featured Apify APIs with direct tracked links
 - primary recommended APIs
 - optional alternatives
 - what each API is used for

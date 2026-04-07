@@ -30,7 +30,7 @@ Outputs: ranked properties, comp notes, market snapshots, underwriting summaries
 
 ## Recommended API stack
 
-Use RentCast for listing and rent data, Google Places for amenity and neighborhood signals, OpenAI for underwriting notes and summaries, and Resend or Slack for alert delivery.
+Use RentCast for listing and rent data, Google Places for amenity and neighborhood signals, OpenAI for underwriting notes and summaries, and Resend or Slack for alert delivery. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

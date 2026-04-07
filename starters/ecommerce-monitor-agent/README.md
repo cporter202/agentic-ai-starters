@@ -30,7 +30,7 @@ Outputs: change feed, price alerts, stock alerts, review summaries, operator rec
 
 ## Recommended API stack
 
-Use Shopify for owned-store data, Amazon Selling Partner API for marketplace-aware workflows, Firecrawl or Apify for competitor site monitoring, and OpenAI for summarization and triage.
+Use Shopify for owned-store data, Amazon Selling Partner API for marketplace-aware workflows, Firecrawl or Apify for competitor site monitoring, and OpenAI for summarization and triage. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

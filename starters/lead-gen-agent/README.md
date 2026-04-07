@@ -30,7 +30,7 @@ Outputs: ranked lead list, contact profiles, enrichment fields, qualification no
 
 ## Recommended API stack
 
-Use People Data Labs for enrichment, Hunter for email discovery and verification, Google Places or Apify for discovery, and OpenAI for lead scoring and routing logic.
+Use People Data Labs for enrichment, Hunter for email discovery and verification, Google Places or Apify for discovery, and OpenAI for lead scoring and routing logic. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

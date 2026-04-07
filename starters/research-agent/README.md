@@ -31,7 +31,7 @@ Outputs: research memo, source table, key claims, open questions, next-step reco
 
 ## Recommended API stack
 
-Use OpenAI for synthesis, Tavily or Exa for discovery, Firecrawl for page extraction, and Langfuse for tracing and prompt iteration.
+Use OpenAI for synthesis, Tavily or Exa for discovery, Firecrawl for page extraction, and Langfuse for tracing and prompt iteration. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

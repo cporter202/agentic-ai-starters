@@ -1,22 +1,22 @@
 # Curated API Stack
 
-## Primary recommended APIs
+## Featured Apify APIs
 
-| API | Used for | Why it belongs |
+| Apify API | Used for | Why it belongs |
 | --- | --- | --- |
-| People Data Labs | company and person enrichment | Gives the workflow richer targeting and scoring data |
-| Hunter | email discovery and verification | Keeps the final list usable for outbound |
-| Google Places API | local business discovery | Strong fit for geo-based prospecting and local lead gen |
-| OpenAI | scoring, segmentation, enrichment QA | Turns raw records into ranked and explainable opportunities |
+| [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) | decision-maker discovery and email capture | Great top-of-funnel offer for B2B lead sourcing |
+| [Google Maps B2B Leads Scraper](https://apify.com/primeparse/google-maps-scraper?fpr=p2hrc6) | local business discovery | Strong fit for agencies and geo-targeted prospecting |
+| [LinkedIn Profile Scraper](https://apify.com/automation-lab/linkedin-profile-scraper?fpr=p2hrc6) | person enrichment | Useful for adding context before scoring and outreach |
+| [LinkedIn Company Data Extractor](https://apify.com/data-slayer/linkedin-company-scraper?fpr=p2hrc6) | company enrichment | Helps the workflow qualify account fit with public company data |
 
-## Optional alternatives
+## Companion APIs
 
-- Apify: useful for collecting leads from directories or vertical sites.
-- Tavily: useful for web-based discovery when maps are not enough.
-- Resend: useful if you want this starter to hand off directly into outbound delivery.
+- OpenAI: scoring, segmentation, and enrichment QA.
+- Hunter: email verification and deliverability checks.
+- People Data Labs: extra company and person enrichment when needed.
 
 ## Suggested stack tiers
 
-- Lean stack: Google Places API + Hunter + OpenAI.
-- Best-value stack: Google Places API + People Data Labs + Hunter + OpenAI.
-- Premium stack: Apify + People Data Labs + Hunter + OpenAI + Langfuse.
+- Lean stack: OpenAI + [Google Maps B2B Leads Scraper](https://apify.com/primeparse/google-maps-scraper?fpr=p2hrc6).
+- Best-value stack: OpenAI + [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) + Hunter.
+- Premium stack: OpenAI + [Linkedin Leads Generator](https://apify.com/contacts-api/linkedin-leads-generator?fpr=p2hrc6) + [LinkedIn Company Data Extractor](https://apify.com/data-slayer/linkedin-company-scraper?fpr=p2hrc6) + People Data Labs + Langfuse.

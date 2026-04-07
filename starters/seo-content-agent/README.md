@@ -30,7 +30,7 @@ Outputs: keyword cluster, content brief, article draft, on-page optimization not
 
 ## Recommended API stack
 
-Use SerpApi or Google search data for SERP context, Firecrawl for competitor page extraction, OpenAI for briefing and drafting, and Notion or your CMS API for handoff.
+Use SerpApi or Google search data for SERP context, Firecrawl for competitor page extraction, OpenAI for briefing and drafting, and Notion or your CMS API for handoff. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

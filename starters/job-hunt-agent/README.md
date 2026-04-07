@@ -30,7 +30,7 @@ Outputs: ranked job feed, tailored application assets, follow-up reminders, sear
 
 ## Recommended API stack
 
-Use Adzuna for job data, Firecrawl for employer or listing-page extraction, OpenAI for matching and application materials, and Notion or a tracker database for pipeline management.
+Use Adzuna for job data, Firecrawl for employer or listing-page extraction, OpenAI for matching and application materials, and Notion or a tracker database for pipeline management. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

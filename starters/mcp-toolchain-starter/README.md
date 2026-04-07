@@ -30,7 +30,7 @@ Outputs: completed actions, notes, tickets, code suggestions, docs updates, trac
 
 ## Recommended API stack
 
-Use OpenAI for tool-aware reasoning, GitHub for repo actions, Notion for docs, Slack for approvals or notifications, and optionally Tavily for live web retrieval.
+Use OpenAI for tool-aware reasoning, GitHub for repo actions, Notion for docs, Slack for approvals or notifications, and optionally Tavily for live web retrieval. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

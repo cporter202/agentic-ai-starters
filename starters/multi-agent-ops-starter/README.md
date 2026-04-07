@@ -30,7 +30,7 @@ Outputs: completed task bundle, trace data, reviewer notes, retry queue, operato
 
 ## Recommended API stack
 
-Use OpenAI for the planner or executor roles, Anthropic for review or long-context specialists, Trigger.dev for reliable orchestration, Langfuse for traces, and Slack for human checkpoints.
+Use OpenAI for the planner or executor roles, Anthropic for review or long-context specialists, Trigger.dev for reliable orchestration, Langfuse for traces, and Slack for human checkpoints. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 

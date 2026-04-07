@@ -30,7 +30,7 @@ Outputs: message variants, sequence steps, personalization notes, handoff queue,
 
 ## Recommended API stack
 
-Use People Data Labs or your lead source for enrichment, Hunter for deliverability-aware contact work, Resend for delivery, and OpenAI for personalization and objection handling.
+Use People Data Labs or your lead source for enrichment, Hunter for deliverability-aware contact work, Resend for delivery, and OpenAI for personalization and objection handling. See [`stack.md`](./stack.md) for the featured Apify picks and tracked direct links.
 
 ## Why build it
 
