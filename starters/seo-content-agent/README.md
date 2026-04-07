@@ -1,12 +1,14 @@
-# SEO Content Agent
+﻿# SEO Content Agent
 
 Build a research-to-brief-to-draft system for publishing content that targets search demand with less manual busywork.
 
-## What it does
+## What you are building
 
-This starter takes a topic cluster or keyword target, analyzes search intent and competing pages, creates a content brief, drafts an article, and prepares optimization notes for editors or publishers.
+This starter is for a workflow that takes a topic, keyword cluster, or content gap and turns it into a production-ready content asset. The system should gather search intent, inspect competing pages, build a brief, draft the article, and prepare clean handoff notes for an editor or publishing workflow.
 
-## Who it is for
+The point is not to generate bland content at scale. The point is to compress the messy research and briefing work that slows content teams down.
+
+## Who should build it
 
 - SEO consultants
 - content teams
@@ -14,19 +16,61 @@ This starter takes a topic cluster or keyword target, analyzes search intent and
 - agencies
 - SaaS growth teams
 
-## Workflow
+This starter is strongest when the user already cares about speed, editorial consistency, and repeatable briefing quality.
 
-1. Start from a topic, keyword set, or content gap.
-2. Collect SERP context, competitor pages, and search intent patterns.
-3. Build a brief with angle, structure, and internal-link opportunities.
-4. Draft the piece and run quality checks.
-5. Hand off to an editor, CMS, or publishing pipeline.
+## End-to-end workflow
+
+1. Accept a keyword, topic cluster, or content gap.
+2. Pull search results and competing pages.
+3. Identify search intent, common structures, and weak spots in the SERP.
+4. Generate a content brief with outline, angle, FAQs, and internal-link opportunities.
+5. Draft the article using the approved brief.
+6. Run quality checks before handoff or publishing.
 
 ## Inputs and outputs
 
-Inputs: target keyword, site positioning, audience, brand voice, existing URLs.
+Inputs:
 
-Outputs: keyword cluster, content brief, article draft, on-page optimization notes, internal link suggestions.
+- primary keyword or topic cluster
+- target audience
+- brand voice
+- existing pages to avoid overlap
+- output format or CMS destination
+
+Outputs:
+
+- keyword cluster
+- content brief
+- outline
+- article draft
+- optimization notes
+- internal-link suggestions
+
+## How to build the MVP
+
+Treat briefing and drafting as two separate products. That alone makes the workflow dramatically more usable.
+
+### MVP shape
+
+1. Start with a keyword intake form.
+2. Pull a small SERP snapshot and the top competing pages.
+3. Build a briefing layer that extracts:
+   search intent, angle, headings, FAQs, and gaps.
+4. Save the brief as a structured object.
+5. Draft only after the brief exists.
+6. Run a QA layer for:
+   unsupported claims, overlap risk, thin sections, and missing FAQs.
+7. Hand off the output to Notion or your CMS instead of auto-publishing.
+
+## Core system components
+
+- topic intake
+- SERP collector
+- competitor page extractor
+- brief generator
+- drafting agent
+- editorial QA layer
+- handoff destination such as Notion or CMS
 
 ## Recommended API stack
 
@@ -37,8 +81,42 @@ Outputs: keyword cluster, content brief, article draft, on-page optimization not
 
 See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
-## Why build it
+## Human review points
 
-SEO teams often spend too much time moving between research, outlining, drafting, and QA. This workflow can shorten the cycle without turning content into generic sludge.
+Add editor review before anything is published. The most important checks are:
+
+- factual accuracy
+- search-intent match
+- duplicate-topic risk
+- brand voice alignment
+- legal, medical, or financial sensitivity
+
+## What a strong v1 looks like
+
+A strong v1 gives an editor three things:
+
+- a clear angle
+- a clear structure
+- a draft that is worth editing instead of rewriting
+
+If the workflow still produces vague outlines and generic drafts, the real bottleneck is probably the brief, not the writing model.
+
+## Monetization ideas
+
+- agency content production systems
+- niche SEO briefing tools
+- editorial copilots for content teams
+- productized "brief plus draft" services for founders and operators
+
+## Fastest path to v1
+
+1. Topic intake
+2. SERP snapshot
+3. Brief generation
+4. Draft generation
+5. Editorial QA
+
+That sequence gives you a real content pipeline without overbuilding publishing automation too early.
 
 See also: [`architecture.md`](./architecture.md), [`prompts.md`](./prompts.md), [`stack.md`](./stack.md)
+

@@ -2,11 +2,13 @@
 
 Build a personalized outbound system that turns qualified leads into messages, sequences, and follow-up actions.
 
-## What it does
+## What you are building
 
-This starter takes a lead list, researches the account and contact, drafts personalized messaging, schedules a sequence, and hands off replies or exceptions to a human operator.
+This starter is for a workflow that takes a lead list, researches the account and contact, drafts relevant outbound messaging, sequences follow-ups, and routes replies or edge cases to a human operator.
 
-## Who it is for
+The product should help users send fewer, better messages. The point is not spam volume. The point is high-context outbound that creates pipeline.
+
+## Who should build it
 
 - agencies
 - founders
@@ -14,19 +16,60 @@ This starter takes a lead list, researches the account and contact, drafts perso
 - recruiters
 - service businesses
 
-## Workflow
+This starter is strongest when the user has a clear offer, case studies, and a narrow target segment.
 
-1. Import leads from a CRM, sheet, or lead-gen pipeline.
-2. Research the company, role, and likely pain points.
-3. Draft personalized email or DM copy.
-4. Sequence follow-ups with stop rules.
-5. Route replies, objections, or edge cases to a human.
+## End-to-end workflow
+
+1. Accept a lead list or connect to a lead source.
+2. Collect company and contact context.
+3. Generate personalization angles tied to the offer.
+4. Draft first-touch and follow-up messages.
+5. Schedule the sequence with stop rules.
+6. Classify replies and route them for human action.
 
 ## Inputs and outputs
 
-Inputs: lead list, offer, ICP, case studies, tone rules, sending domain.
+Inputs:
 
-Outputs: message variants, sequence steps, personalization notes, handoff queue, reply labels.
+- lead list
+- offer
+- ICP
+- case studies or proof points
+- sending rules
+- tone and compliance constraints
+
+Outputs:
+
+- personalization notes
+- first-touch message
+- follow-up sequence
+- reply labels
+- handoff queue
+
+## How to build the MVP
+
+The smartest first version is one list source, one message channel, and one reply classifier.
+
+### MVP shape
+
+1. Import leads from a CSV, sheet, or upstream lead workflow.
+2. Pull enough context to answer:
+   why this account, why this person, why now.
+3. Generate a short first-touch message and two follow-ups.
+4. Add stop conditions for:
+   replies, bounces, and suppression.
+5. Add a reply classifier for:
+   interested, objection, not now, unsubscribe, or wrong person.
+6. Route positive replies to a human closer.
+
+## Core system components
+
+- lead intake and suppression rules
+- personalization context collector
+- message-generation agent
+- sequence scheduler
+- reply classifier
+- human handoff queue
 
 ## Recommended API stack
 
@@ -37,8 +80,42 @@ Outputs: message variants, sequence steps, personalization notes, handoff queue,
 
 See [`stack.md`](./stack.md) for lean, best-value, and premium build paths.
 
-## Why build it
+## Human review points
 
-Outbound becomes far more defensible when the workflow combines qualification, personalization, and disciplined operational rules instead of blast-volume automation.
+Require human review for:
+
+- high-value accounts
+- compliance-sensitive segments
+- negative or nuanced replies
+- claims that depend on customer-specific promises
+- unsubscribe and reputation issues
+
+## What a strong v1 looks like
+
+A strong v1 should produce messages that make a human say:
+
+- this feels relevant
+- this is short enough
+- this is safe to send
+- this gives me a clear next step if someone replies
+
+If the output feels generic, the personalization layer is probably too weak.
+
+## Monetization ideas
+
+- outbound systems for niche agencies
+- founder-led pipeline assistants
+- recruiter outreach tools
+- productized outbound setup services
+
+## Fastest path to v1
+
+1. One niche
+2. One lead source
+3. One message channel
+4. One sequence
+5. One reply classifier
+
+That path gives you a working outbound product before you expand into full CRM automation.
 
 See also: [`architecture.md`](./architecture.md), [`prompts.md`](./prompts.md), [`stack.md`](./stack.md)

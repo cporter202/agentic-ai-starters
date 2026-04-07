@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/readme-hero.svg" alt="Agentic AI Starters hero banner" width="100%" />
+  <img src="./assets/readme-hero.png" alt="Agentic AI Starters hero banner" width="100%" />
 </div>
 
 <div align="center">
