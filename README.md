@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cporter202-agentic-ai-starters-badge.png)](https://mseep.ai/app/cporter202-agentic-ai-starters)
+
 <div align="center">
   <img src="./assets/readme-hero.png" alt="Agentic AI Starters hero banner" width="100%" />
 </div>
